@@ -27,7 +27,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginLeft="62dp"
-            android:layout_marginTop="36.7dp"
+            android:layout_marginTop="25dp"
             android:layout_marginRight="62dp"
             android:background="@drawable/blue_border_rounded_cornwe">
             <EditText
@@ -41,7 +41,7 @@
                 android:inputType="textEmailAddress"
                 android:maxLines="1"
                 android:paddingLeft="17dp"
-                android:paddingTop="15dp"
+                android:paddingTop="10dp"
                 android:paddingBottom="15dp"
                 android:textCursorDrawable="@drawable/cursor_color"
                 android:textSize="14sp" />
@@ -91,7 +91,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginLeft="62dp"
-            android:layout_marginTop="20dp"
+            android:layout_marginTop="18dp"
             android:layout_marginRight="62dp">
         <CheckBox
             android:id="@+id/remember"
@@ -107,7 +107,7 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:layout_marginLeft="62dp"
-            android:layout_marginTop="18.7dp"
+            android:layout_marginTop="15.7dp"
             android:layout_marginRight="62dp"
             android:background="@drawable/blue_fill__rounded_color"
             android:fontFamily="@font/poppins_regular"
@@ -115,6 +115,7 @@
             android:paddingTop="14dp"
             android:paddingBottom="14dp"
             android:text="Login"
+            android:textStyle="bold"
             android:textColor="#ffffff"
             android:textSize="14sp"/>
         <TextView
@@ -129,7 +130,7 @@
             android:gravity="center"/>
         <TextView
             android:id="@+id/signUp"
-            android:layout_marginTop="10dp"
+            android:layout_marginTop="6dp"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/signUp"
@@ -137,5 +138,24 @@
             android:textColor="#000000"
             android:textSize="14sp"
             android:gravity="center"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="6dp"
+            android:gravity="center">
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:src="@drawable/facebook"
+                android:scaleType="fitXY"
+                android:layout_marginLeft="10dp"/>
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:src="@drawable/google"
+                android:scaleType="fitXY"
+                android:layout_marginLeft="20dp"/>
+        </LinearLayout>
     </LinearLayout>
 </RelativeLayout>
