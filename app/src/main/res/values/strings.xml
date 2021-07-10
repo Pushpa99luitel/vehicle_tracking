@@ -9,5 +9,9 @@
     <string name="requesting_your_cab">Request</string>
     <string name="take_next_ride">Next Ride</string>
     <string name="request_cab">Request Cab</string>
+    <string name="title_activity_bottom_nav">MainActivity</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
 
 </resources>
