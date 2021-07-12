@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "278681302115",
+    "firebase_url": "https://gps-tracking-a1721-default-rtdb.firebaseio.com",
+    "project_id": "gps-tracking-a1721",
+    "storage_bucket": "gps-tracking-a1721.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:278681302115:android:b8539fba90704258ca7456",
+        "android_client_info": {
+          "package_name": "com.pushpa.vehicletracking"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "278681302115-fks28cforg1n5pb4jk9rn5hp2udomsnu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA-WWGxVQDbNVFUAobGrlkLpOGQT5v0oBs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "278681302115-fks28cforg1n5pb4jk9rn5hp2udomsnu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
