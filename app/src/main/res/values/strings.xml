@@ -4,8 +4,8 @@
     <string name="login">Already have an account?<font color='#115CF2'><u>Login</u></font></string>
     <string name="forgotPassword"><font color='#115CF2'>Forgot password?</font></string>
     <string name="title_activity_maps">Map</string>
-    <string name="pickup_location">Current Location</string>
-    <string name="where_to">Newroad</string>
+    <string name="pickup_location">Pickup Location</string>
+    <string name="where_to">Where to?</string>
     <string name="requesting_your_cab">Request</string>
     <string name="take_next_ride">Next Ride</string>
     <string name="request_cab">Request Cab</string>
